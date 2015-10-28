@@ -4,12 +4,14 @@
 void main()
 {
 	int x,i=0;
+	char s[100];
 	cout<<"Enter numbers: ";
 	do
 		{
-
+			cin>>x;
+			i++;
         }
-	while (1)
+	while (x>0);
 
 	cout<<"Result: "<<i;
 	getch();
